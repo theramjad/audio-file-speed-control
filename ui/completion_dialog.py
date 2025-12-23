@@ -81,16 +81,18 @@ class CompletionDialog(QDialog):
             "You can use Anki's 'Check Media' to find and delete unused files later.</i>"
         )
         note_label.setWordWrap(True)
-        note_label.setStyleSheet("color: palette(mid);")
+        note_label.setStyleSheet("opacity: 0.7;")
         layout.addWidget(note_label)
 
         # Buttons
         button_layout = QHBoxLayout()
 
         self.undo_btn = QPushButton("Undo Changes")
+        self.undo_btn.setAutoDefault(False)
         qconnect(self.undo_btn.clicked, self._on_undo)
 
         close_btn = QPushButton("Close")
+        close_btn.setDefault(True)
         qconnect(close_btn.clicked, self.accept)
 
         button_layout.addWidget(self.undo_btn)

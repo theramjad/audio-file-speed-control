@@ -119,7 +119,7 @@ class SpeedUpAudioDialog(QDialog):
 
         # Already processed warning (will be shown if needed)
         self.processed_warning = QLabel("")
-        self.processed_warning.setStyleSheet("color: #cc7700; font-style: italic;")
+        self.processed_warning.setStyleSheet("font-style: italic; opacity: 0.85;")
         self.processed_warning.setWordWrap(True)
         self.processed_warning.hide()
         layout.addWidget(self.processed_warning)
