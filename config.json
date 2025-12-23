@@ -1,0 +1,5 @@
+{
+    "default_speed": 1.2,
+    "skip_processed_by_default": true,
+    "preview_sample_size": 8
+}
