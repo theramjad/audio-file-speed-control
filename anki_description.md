@@ -3,7 +3,7 @@
 - Source Code: [https://github.com/theramjad/audio-file-speed-control](https://github.com/theramjad/audio-file-speed-control)
 - Changelog: [https://github.com/theramjad/audio-file-speed-control/releases](https://github.com/theramjad/audio-file-speed-control/releases)
 
-For support, email [the developer here](mailto:r@rayamjad.com).
+For support, email the developer at [r@rayamjad.com](mailto:r@rayamjad.com).
 
 ---
 
@@ -13,6 +13,13 @@ For support, email [the developer here](mailto:r@rayamjad.com).
 
 It works by re-encoding your audio files using FFmpeg at whatever speed you choose, then updating your card references to point to the new files. Your originals are always kept.
 
+It supports the following formats:
+- MP3
+- WAV
+- OGG
+- M4A
+- MP4 / WebM
+
 ---
 
 ## Features
@@ -20,7 +27,6 @@ It works by re-encoding your audio files using FFmpeg at whatever speed you choo
 ⚡ **Permanent Speed-Up**
 - Speeds up audio at the file level, not just playback — works everywhere Anki plays sound
 - Pitch is preserved using FFmpeg's `atempo` filter, so audio doesn't sound chipmunk-y
-- Supports MP3, WAV, OGG, M4A, MP4, and WebM
 
 🔍 **Preview Before You Commit**
 - Preview sped-up audio on a sample of your cards before processing anything
@@ -40,7 +46,9 @@ It works by re-encoding your audio files using FFmpeg at whatever speed you choo
 ## Requirements
 
 - Anki 23.10 or later
-- [FFmpeg](https://ffmpeg.org/) installed and available in your PATH (or Homebrew on macOS)
+- [FFmpeg](https://ffmpeg.org/) installed and available in your PATH
+
+On macOS you can install it with: `brew install ffmpeg`
 
 ---
 
@@ -63,10 +71,10 @@ It works by re-encoding your audio files using FFmpeg at whatever speed you choo
 - Check that the audio files actually exist in your Anki media folder. If cards were synced without media, the files may be missing.
 
 **Audio sounds distorted at high speeds**
-- The `atempo` filter works best between 1.0x and 2.0x. At 3.0x it chains filters which can reduce quality — consider staying under 2.5x.
+- The `atempo` filter works best between 1.0x and 2.0x. Consider staying under 2.5x for best quality.
 
 **Nothing happens when I select cards**
-- Make sure the selected cards actually have `[sound:...]` fields. Cards with only text won't show anything.
+- Make sure the selected cards actually have `[sound:...]` fields. Cards with only text won't trigger the dialog.
 
 ---
 
