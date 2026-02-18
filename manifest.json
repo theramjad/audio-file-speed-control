@@ -1,4 +1,6 @@
 {
     "package": "audio-file-speed-control",
-    "name": "Audio File Speed Control"
+    "name": "Audio File Speed Control",
+    "conflicts": [],
+    "min_point_version": 231000
 }
