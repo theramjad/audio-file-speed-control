@@ -43,6 +43,12 @@ It supports the following formats:
 
 ---
 
+## Images
+
+![Screenshot 1](https://github.com/theramjad/audio-file-speed-control/blob/main/resources/screenshot-1.png?raw=true)
+
+---
+
 ## Requirements
 
 - Anki 23.10 or later
@@ -56,9 +62,10 @@ On macOS you can install it with: `brew install ffmpeg`
 
 1. Open the **Card Browser** in Anki
 2. Select the cards whose audio you want to speed up
-3. Go to **Edit → Speed Up Audio...**
-4. Adjust the speed slider and optionally preview the result
-5. Click **OK** to process
+3. Go to **Edit > "Speed Up Audio..."**
+4. Adjust the speed slider
+5. Optionally click **Generate Preview** to hear a sample before committing
+6. Click **OK** to process all selected cards
 
 ---
 
