@@ -3,7 +3,7 @@
 - Source Code: [https://github.com/theramjad/audio-file-speed-control](https://github.com/theramjad/audio-file-speed-control)
 - Changelog: [https://github.com/theramjad/audio-file-speed-control/releases](https://github.com/theramjad/audio-file-speed-control/releases)
 
-For support, make an issue on [GitHub Issues](https://github.com/theramjad/audio-file-speed-control/issues) or email [the developer here](mailto:r@rayamjad.com).
+For support, email [the developer here](mailto:r@rayamjad.com).
 
 ---
 
@@ -72,4 +72,4 @@ It works by re-encoding your audio files using FFmpeg at whatever speed you choo
 
 ## About Me
 
-Hey, I'm Ray. I make videos on [YouTube](https://www.youtube.com/@RAmjad/videos) and vibe-code add-ons like this and apps such as [Tensor AI](https://tensorai.app/) and [HyperWhisper](https://hyperwhisper.com/). You can learn to vibe-code yourself with the help of my [Master Claude Code class](https://www.masterclaudecode.com/).
+Hey, I'm Ray. I make videos on [YouTube](https://www.youtube.com/@RAmjad/videos).
